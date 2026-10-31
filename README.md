@@ -64,5 +64,148 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-zvid-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://zvid.io/
+Zvid provides a video generation platform that lets developers create videos and images programmatically via a JSON‑based API. Users can design templates visually in a web editor, then render personalized videos at scale, with support for bulk rendering, webhooks, and credit‑based pricing. The service offers a free tier with monthly credits and paid plans for higher volume, and includes extensive documentation, SDKs, and integration guides.
+
+**Areas:** Company · Video · API · Automation · Media
+
+## zvid-io on APIs.io
+
+Everything profiled for zvid-io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/zvid-io/](https://apis.io/providers/zvid-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (13)
+
+- [zvid-io API Keys API](https://apis.io/apis/zvid-io/zvid-io-api-keys-api/) — API key management operations
+- [zvid-io Authoring API](https://apis.io/apis/zvid-io/zvid-io-authoring-api/) — Free creative planning and project-authoring helpers
+- [zvid-io Bulk Render API](https://apis.io/apis/zvid-io/zvid-io-bulk-render-api/) — One template + many variable sets in a single request
+- [zvid-io Credits API](https://apis.io/apis/zvid-io/zvid-io-credits-api/) — Credit balance and transaction management
+- [zvid-io Library API](https://apis.io/apis/zvid-io/zvid-io-library-api/) — Designed examples and reusable creative assets
+- [zvid-io Projects API](https://apis.io/apis/zvid-io/zvid-io-projects-api/) — Editor draft projects (open them in the visual editor)
+- [zvid-io Render API](https://apis.io/apis/zvid-io/zvid-io-render-api/) — Video and image rendering operations
+- [zvid-io Stock API](https://apis.io/apis/zvid-io/zvid-io-stock-api/) — Zvid's stock library
+- [zvid-io Templates API](https://apis.io/apis/zvid-io/zvid-io-templates-api/) — Stored, variable-driven project templates
+- [zvid-io Uploads API](https://apis.io/apis/zvid-io/zvid-io-uploads-api/) — Your hosted media library
+- [zvid-io User API](https://apis.io/apis/zvid-io/zvid-io-user-api/) — User profile operations
+- [zvid-io Webhooks API](https://apis.io/apis/zvid-io/zvid-io-webhooks-api/) — HMAC-signed render event deliveries
+- [zvid-io Zvid API](https://apis.io/apis/zvid-io/zvid-io-zvid-api-api/) — The Zvid API API from zvid-io — 0 operation(s) for zvid api.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Zvid Io Webhooks](https://apis.io/asyncapis/zvid-io/zvid-io-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Zvid Io Agentic Access](https://apis.io/agentic-access/zvid-io/zvid-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BulkRenderAccepted](https://apis.io/schemas/zvid-io/zvid-io-bulk-render-accepted/)
+- [CreativePlanRequest](https://apis.io/schemas/zvid-io/zvid-io-creative-plan-request/)
+- [RenderJobRequest](https://apis.io/schemas/zvid-io/zvid-io-render-job-request/)
+- [RenderJobStatus](https://apis.io/schemas/zvid-io/zvid-io-render-job-status/)
+- [Zvid authoring project and template input](https://apis.io/schemas/zvid-io/zvid-io-render-payload/)
+- [UserProfile](https://apis.io/schemas/zvid-io/zvid-io-user-profile/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Zvid Io Context](https://apis.io/jsonld/zvid-io/zvid-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [zvid-io API Rules](https://apis.io/rules/zvid-io/zvid-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Zvid Io Authentication](https://apis.io/security/zvid-io/zvid-io-authentication/)
+- [Zvid Io Domain Security](https://apis.io/security/zvid-io/zvid-io-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Zvid Io Plans Pricing](https://apis.io/plans/zvid-io/zvid-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://zvid.io/)
+- [Documentation](https://docs.zvid.io)
+- [Getting started](https://docs.zvid.io/docs/quick-start/)
+- [API reference](https://docs.zvid.io/docs/endpoints/zvid-api/)
+- [Pricing](https://zvid.io/pricing)
+- [Support](https://zvid.io/contact)
+- [Blog](https://zvid.io/blog)
+- [Terms of service](https://zvid.io/terms)
+- [Privacy policy](https://zvid.io/privacy)
+- [GitHub](https://github.com/zvid-io)
+
+## API Evangelist rating
+
+**Kin Score 67.0** — exemplar · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 71.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 75.5 |
+| Access clarity | 73.2 |
+
+**Agent readiness 61.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/zvid-io/](https://apis.io/providers/zvid-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for zvid-io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/zvid-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
